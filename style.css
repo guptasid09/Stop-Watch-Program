@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(184, 162, 186);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#mystop{
+    font-size: 4em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px  solid black;
+    border-radius: 50px;
+    padding: 30px;
+    background-color: white;
+    padding: 50px;
+    
+}
+#display{
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(71, 69, 69);
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+#controls button{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    cursor:pointer; 
+    transition: background-color 0.5s ease;
+    
+}
+#start{
+   
+    background-color: green;  
+}
+#start:hover{
+    background-color: hsl(120, 100%, 35%);
+}
+#stop{
+   
+    background-color: red;
+}
+#stop:hover{
+    background-color: hsl(0, 100%, 60%);
+}
+#restart{
+    background-color: rgb(68, 131, 209);  
+}
+#restart:hover{
+    background-color: hsl(215, 68%, 66%);  
+}
